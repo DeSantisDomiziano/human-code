@@ -1,7 +1,8 @@
 # Human code
 
 ## Preparare le lasagne alla bolognese
-
+<!-- Chissà perché, per quanto ci provi e segua alla lettera la ricetta, non vengono mai come quelle di nonna! 
+Ho studiato alla perfezione tutti gli ingredienti, le quantità, i tempi e modalità di cottura, ma alla fine le lasagne della nonna sono sempre di un altro livello! -->
 contesto: cucina & ricetta della nonna
 
 - Leggere ricetta
@@ -10,7 +11,7 @@ contesto: cucina & ricetta della nonna
 - Apro il frigo 
 - SCROLLO la lista degli ingredienti  
     - ? SE in frigo gli ingredienti ci sono 
-        - inizio a cucinare
+        - Prendo gli ingredienti
     - : ALTRIMENTI
         - scirvere lista ingredienti mancanti
         - dirigersi verso la macchina
@@ -34,7 +35,6 @@ contesto: cucina & ricetta della nonna
         - : ALTRIMENTI lascia cuacere fino a colarazione "X"
 - FINCHE il ragu cuoce 
     - fai la bescemella
-    - prendi teglia 
 - ? SE è pronto il ragu E anche la besciamella
     - prendi la teglia
     - fare struttura
