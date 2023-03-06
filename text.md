@@ -4,8 +4,6 @@
 
 contesto: cucina & ricetta della nonna
 
-myFcunction()
-
 - Leggere ricetta
 - Controllare la lista degli ingredienti sulla ricetta 
 - Dirigersi verso il frigo
@@ -43,7 +41,11 @@ myFcunction()
         - ragu
         - pasta
         - besciamella
-    - ? SE la teglia è piena mettere in forno
+    - ? SE la teglia è piena 
+        - mettere in forno
+        - accendere forno 
+        - mettere a temperatura "X"
+        - aspettare "X" ore
     - : ALTRIMENTI continua a stratificare
 - ? SE la lasagna è buona come quella della nonna, mangia.
 - : ALTRIMENTI ricomincia da "Leggere ricetta" 
